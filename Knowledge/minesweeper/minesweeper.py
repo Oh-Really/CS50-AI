@@ -216,6 +216,7 @@ class MinesweeperAI():
         # Now we can actually add a new sentence to our knowledge base
         self.knowledge.append(Sentence(new_sentence_cells, count))
 
+
         # 4) Based off this new knowledge, update any known cells that are safe as safe
         sentence_safes_all = set()
         sentence_mines_all = set()
